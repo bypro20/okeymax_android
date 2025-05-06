@@ -35,7 +35,7 @@ jobs:
       run: ./gradlew assembleRelease
 
     - name: Upload Release APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
         name: OkeyMax-Release-APK
         path: app/build/outputs/apk/release/app-release.apk
